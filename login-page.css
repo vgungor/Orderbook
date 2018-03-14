@@ -1,0 +1,59 @@
+body{
+	background-image:url(../images/login-screen-background-2.jpg);
+	font-family:Sans-serif, Arial, serif;	
+	
+}
+section{
+	position:fixed;
+    top: 50%;
+    left: 50%;
+    width:25em;
+    height:auto;
+    margin-top: -9em; /*set to a negative number 1/2 of your height*/
+    margin-left: -15em; /*set to a negative number 1/2 of your width*/
+    border: 1px solid #ccc;
+    background-color: #f3f3f3;
+	text-align:center;
+}
+.container h2{
+	margin-top:0;
+	background-color:black;
+	color:white;
+	padding: 10px 10px 10px 10px;
+}
+/* all labels have the same size and are properly aligned */
+label{
+	display: inline-block;
+	width: 70px;
+	text-align: left;
+	margin-right:6px;
+	font-weight:bold;
+}
+/* To give a little highlight on active elements */
+input{
+	height:25px;
+	margin-bottom:5px;
+}
+input:focus{
+	border: 1px solid;
+	border-color: rey;
+ 
+}
+#login{
+	margin-top:5px;
+	margin-bottom:10px;
+	left:50%;
+	border-radius:5px;
+	height:50px;
+	vertical-align:middle;
+}
+.button img{
+	vertical-align:middle;
+	background-image:url(./images/giris-logo.jpg);
+	background-color: transparent;
+	height: 31px;
+	padding-left:2px;
+}
+form{
+	margin-top:10px;
+}

@@ -1,0 +1,191 @@
+/*HEADER*/
+.ust1a{
+	border-bottom: solid 2px #dd2a1b;
+	height:55px;	
+}
+.ust1a_1{
+	float:left;
+	display:inline;
+	width:33%;
+	height:53px;
+	text-align:center;
+	vertical-align:middle;
+}
+h2.ust1a_1{
+	font-weight: bold;
+	float:left;
+    vertical-align:middle;
+}
+#ust_orcelogo{
+	height:49px;
+}
+#logout{
+	width:171px;
+	height:36px;
+	margin-top:7px;
+	background-color:#0090D2;
+}
+#logout:hover{
+	background-color:#0075A8;
+}
+.ust1b{
+	border-bottom: solid 2px #dd2a1b;
+	height:55px;	
+}
+.ust1b_1a{
+	float:left;
+	display:inline;
+	width:33%;
+	height:53px;
+	text-align:center;
+	vertical-align:middle;
+}
+a.ust1b_1a{
+	vertical-align:center;
+	padding-top:50%;
+}
+/*END OF HEADER*/
+
+/*ORDER / TENDER SIDEBAR*/
+.orta1{
+	width:20%;
+	height:80%;
+	border-right: solid 1px #dd2a1b;
+	padding-left:20px;
+
+}
+.orta1 a{
+	text-decoration:none;
+}
+.orta1 a:link, .orta1 a:visited{
+	color:#000000;
+}
+.orta1 a:hover{
+	color:#e8491d;
+	font-weight:bold;
+}
+.orta1 h2{
+	font-weight:bold;
+	font-size:auto;
+	margin-bottom:10px;
+}
+.projeler{
+	margin-top:10px;
+}
+.orta1a_proje{
+	font-size:auto;
+	border:1px solid #000000;
+	background-color:#f8f8f8;
+	padding:10px 20px 10px 10px;
+	margin-left:10px;
+	border-radius:8px;
+}
+.orta1a_proje:hover{
+	color:white;
+}
+/**/
+/*ORTA BLOK*/
+.orta1, .orta2{
+	display:inline-block;
+}
+/*SECTION*/
+.orta2{
+	float:right;
+	width:80%;
+    display: inline-block;
+    vertical-align: top;
+	padding-left:10px;
+}
+.orta2a{
+	height:100px;
+	border: solid 1px #000000;
+	border-radius:10px;
+	padding-left:10px;
+	padding-top:10px;
+	
+}
+.orta2b{
+	height:50px;
+	margin-top:10px;
+}
+.orta2b li{
+	display:inline-block;
+	border-top:1px solid;
+	border-left:1px solid;
+	border-right:1px solid;
+	border-radius:5px;
+	padding:3px 8px 3px 8px;
+	
+}
+.orta2b a{
+	text-decoration:none;
+}
+.orta2c table{
+	border-radius:5px;
+	text-align:left;
+	
+}
+.orta2c table, .orta2c th, .orta2c td{
+	border:1px solid black;	
+
+}
+
+.orta2c th{
+	height:50px;
+	width:auto;
+	vertical-align:center;
+	padding:0px 10px 0px 10px;
+}
+.siparis_baslik th{
+	font-weight:bold;
+}
+
+/*musteri-siparis-olusturma*/
+/*Sipariş oluşturma form*/
+.orta2 form{
+	margin: 10px;
+	width: 600px;
+    padding: 10px;
+}
+.orta2 label{
+    display: inline-block;
+    width: 200px;
+    text-align: left;
+	margin-top:2px;
+}
+.orta2 input{
+    width: 300px;
+    border: 1px solid #999;
+	margin-top:2px;
+}
+.orta2 input:focus{
+	border-color: #000;
+}
+
+/*FOOTER*/
+footer {
+    clear: both;
+    height: 60px;
+	border-top: 1px dotted gray;
+    border-bottom: 1px dotted gray;
+    margin-top: 30px;
+}
+
+footer p {
+   line-height: 60px;
+   margin-left: 50px;
+   font-size: 0.7em;
+   font-weight: bold;
+   text-align:center;
+}
+
+
+footer a {
+   font-size: inherit;
+   color: black;
+}
+
+footer a:hover {
+   color: #A32824;
+}
+

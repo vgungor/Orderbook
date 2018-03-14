@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width-device-width, initial-scale=1">
+	<meta name="description" content="template">
+	<meta name="keywords" content="orce, orce makina">
+	<meta name="author" content="MVG">
+	<!-- FONTS -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<!-- CSS DOCUMENTS -->
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" href="./css/template-style.css">
+	<title>Admin Page</title>
+</head>
+
+<body>
+
+	<!-- DEFAULT PAGE HEADER TEMPLATE / LOCATED ON EACH PAGE -->
+	<header class="header">
+		<div class="ust1">
+			<a class="ust1a" href="http://orcemakina.com/"><img id="ust_orcelogo" src="./images/orcelogo2.png" alt="Orce Makina"></a>
+			<h2 class="ust1a"><span>Orce Makina</span> Talep ve Sipariş Yönetim Portalı</h2>
+			<div class="ust1a">
+				<!-- <form class="ust1a_1"><button id="new_member" name="new_member" type="submit">Üye Ol</button></form> -->
+				<form class="ust1a_1"><button id="logout" name="logout" type="submit">Çıkış</button></form>
+			</div>
+		</div>
+	</header>
+	<!-- END OF DEFAULT PAGE HEADER -->
+	
+	
+	<!-- SECTION -->
+	<section class="admin_section">
+		<!-- HEADER OF PROJECT/PART DETAIL PAGE ABOVE ORDER/TENDER -->
+		<div class="admin_orta1">
+			<h1>Kullanıcı ekleme/çıkarma Sayfası</h1>
+
+			<!-- TABLE FOR THE USERS-->
+			<table>
+				<tr>
+					<th>Kullanıcı Adı</th>
+					<th>Kullanıcı Soyadı</th>
+					<th>E-mail</th>
+					<th>Firma</th>
+					<th>Şifre</th>
+					<th>Eklenme Tarihi</th>
+					<th>Ekle/Çıkar</th>
+				</tr>					
+				<tr>
+					<td><input type="text" name="kullanici_adi" placeholder="Ad" value="Volkan"></td>
+					<td><input type="text" name="kullanici_soyad" placeholder="Soyad" value="Gungor"></td>
+					<td><input type="email" name="email" placeholder="e-mail"></td>
+					<td><input type="text" name="firma" placeholder="firma" value=""></td>
+					<td><input type="password" name="sifre" placeholder="sifre" value=""></td>
+					<td><input type="date" name="eklenme_tarihi"></td>
+					<td>Ekle/Çıkar</td>
+				</tr>
+				<tr>
+					<td><input type="text" name="kullanici_adi" placeholder="Ad" value="Orkut"></td>
+					<td><input type="text" name="kullanici_soyad" placeholder="Soyad" value="Işıkalp"></td>
+					<td><input type="email" name="email" placeholder="e-mail"></td>
+					<td><input type="text" name="firma" placeholder="firma" value=""></td>
+					<td><input type="password" name="sifre" placeholder="sifre" value=""></td>
+					<td><input type="date" name="eklenme_tarihi" ></td>
+					<td>Ekle/Çıkar</td>
+				</tr>
+				<tr>
+					<td><input type="text" name="kullanici_adi" placeholder="Ad" value=" "></td>
+					<td><input type="text" name="kullanici_soyad" placeholder="Soyad" value=" "></td>
+					<td><input type="email" name="email" placeholder="e-mail"></td>
+					<td><input type="text" name="firma" placeholder="firma" value=""></td>
+					<td><input type="password" name="sifre" placeholder="sifre" value=""></td>
+					<td><input type="date" name="eklenme_tarihi" ></td>
+					<td>Ekle/Çıkar</td>
+				</tr>
+				
+				
+			</table>
+		</div>
+	</section>
+	<!-- END OF SECTION -->
+	
+		
+	<!-- DEFAULT PAGE FOOTER TEMPLATE / LOCATED ON EACH PAGE -->
+	<footer>
+		<p><a href="mailto:info@orcemakina.com">ORCE Makina</a> Ticaret Portalı  -  2018</p>
+	</footer>
+	<!-- DEFAULT PAGE FOOTER END-->
+</body>
+</html>
