@@ -1,0 +1,121 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+a {
+	text-decoration: none;
+	color: gray;
+}
+a:hover {
+	color: black;
+ }
+ul {
+	list-style-type: none;
+}
+#btnlsol, #btnsag {
+	border-radius: 4px;
+	text-decoration: none;
+	padding: 15px;
+	background: #C3E3F4;
+	font-size: 20px;
+	width: 49%;
+	text-align: center;
+}
+#btnlsol{
+	float:left;
+	border: none;
+	border-radius: 6px;
+	font-weight:bold;
+} 
+#btnsag{
+	float:right;
+	border: none;
+	border-radius: 6px;
+	font-weight:bold;
+}
+#btnlsol:hover, #btnsag:hover{
+	background-color:#0A77D3;
+	border: 2px solid black;
+}
+.form {
+	background: #0A77D3;
+	padding: 40px 40px 40px 40px;
+	max-width: 600px;
+	margin: 40px auto 40px auto;
+	border-radius: 4px;
+	box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+	height:auto;
+}
+input{
+	border-radius: 4px;
+	width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+	border:none;
+	border-bottom: 1px solid black;
+	background-color:#dee5da;
+}
+input:hover{
+	background-color:#C3E3F4;
+}
+input::placeholder {
+	color: black;
+}
+h2{
+	font-size:40px;
+}
+label{
+	font-size:20px;
+	font-weight:bold;
+}
+#btnlogin, #btnsubmit, #btnreset, #sbtnreset, #sbtnsignup {
+	background-color: #104f7f;
+    border: none;
+	border-radius: 6px;
+    color: #C3E3F4;
+    padding: 16px 32px;
+    text-decoration: none;
+    cursor: pointer;
+	font-size:22px;
+	font-weight:bold;
+	box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+	height:46px;
+	line-height:50%;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+#btnreset, #sbtnreset{
+	background-color: #c42a1f;
+	font-weight:none;
+	width:45%;
+	float:left;
+}
+#btnlogin{
+	width:100%;
+}
+#btnsubmit, #sbtnsignup{
+	width:45%;
+	float:right;
+}
+
+.signup {
+	background: #0A77D3;
+	padding: 40px 40px 40px 40px;
+	max-width: 800px;
+	margin: 40px auto 40px auto;
+	border-radius: 4px;
+	box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+	height:auto;
+}
+.personel, .company, .companyaddress{
+	background: #0A77D3;
+	padding: 40px 40px 40px 40px;
+	max-width: 800px;
+	margin: 40px auto 40px auto;
+	border-radius: 4px;
+	box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+	height:auto;
+}
+h2{
+	margin-top:0px;
+}

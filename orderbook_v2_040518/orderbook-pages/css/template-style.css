@@ -1,0 +1,378 @@
+html{
+	box-sizing:border-box;
+}
+body{
+	font-family:Open Sans, sans-serif;
+}
+header,nav,footer{
+
+}
+
+/*******HEADER*******/
+/*UST 1*/
+.ust1{
+	border-bottom: solid 2px #dd2a1b;
+	height:55px;
+	width:100%;
+}
+.ust1 a, .ust1 div{
+	width:25%;
+}
+.ust1a{
+	float:left;
+	display:inline;
+	width:50%;
+	height:53px;
+	text-align:center;
+	vertical-align:middle;
+}
+h2.ust1a{
+	font-weight: bold;
+	float:left;
+	text-align:center;
+	padding-top:6px;
+	font-size:2em;
+	font-family:Open Sans, sans-serif;
+	color:#0090D2;
+	padding-left:0px;
+}
+.ust1a span{
+	color:#dc2818;
+}
+#ust_orcelogo{
+	height:49px;
+}
+.ust1a_1{
+	display:inline;
+}
+#logout, #new_member{
+	width:171px;
+	height:36px;
+	margin-top:7px;
+	background-color:#0090D2;
+	margin-left:20px;
+	border-radius:10px;
+	font-weight:bold;
+	color:#ffffff;
+	font-size:1em;
+}
+#logout:hover, #new_member:hover{
+	background-color:#0075A8;
+}/*END OF UST 1*/
+
+/*UST 2*/
+.ust2{
+	border-bottom: solid 2px #dd2a1b;
+	height:40px;
+	margin-bottom:10px;	
+}
+.ust2a a{
+	padding-left:13%;
+	vertical-align:center;
+	padding-top:50%;
+	text-decoration:none;
+	font-weight:bold;
+}
+h3.ust2a_1>a, h2.ust2a_1>a{
+	font-size:1.2em;
+	font-family:Open Sans, sans-serif;
+	color:#0075A8;
+}
+h3.ust2a_1>a{
+	padding-left:0px;
+	font-size:1.1em;
+}
+.ust2a_1{
+	float:left;
+	display:inline;
+	width:50%;
+	height:36px;
+	vertical-align:middle;
+	padding-top:5px;
+}/*END OF UST 2*/
+/*******END OF HEADER*******/
+
+/****** NAV  ******/
+/*ORDER / TENDER SIDEBAR*/
+.navigation{
+	width:20%;
+	border-right: solid 1px #f8f8f8;
+	padding-right:10px;
+	padding-left:95px;
+	font-family:Open Sans, sans-serif;
+}
+.navigation a{
+	text-decoration:none;
+}
+.navigation a:link, .navigation a:visited{
+	color:#0090D2;
+}
+.navigation a:hover{
+	color:#000000;
+	font-weight:bold;
+}
+.navigation h2{
+	font-weight:bold;
+	font-size:auto;
+	margin-bottom:10px;
+}
+.orta1_projeler{
+	margin-top:10px;
+}
+.orta1_proje{
+	font-size:auto;
+	border:1px #000000;
+	background-color:#f8f8f8;
+	padding:10px 20px 10px 10px;
+	margin-left:10px;
+	border-radius:8px;
+}
+.orta1_proje:hover,.orta1_proje a:hover {
+	color:#000000;
+	font-weight:bold;
+	background-color:#666666;
+}/****** END OF NAV  ******/
+
+.navigation, .section{
+	display:inline-block;
+	margin-bottom:30px;
+}
+/********* SECTION *********/
+.section{
+	float:right;
+	width:80%;
+	padding-left:10px;
+}
+.orta2a{
+	height:170px;
+	/*border: solid 1px #000000;*/
+	border-radius:0px;
+	padding-left:10px;
+	padding-top:10px;
+	border-bottom:1px dashed #000000;
+	
+}
+.orta2a h1{
+	font-size:200%;
+	font-weight:bold;
+	padding-bottom:1%;
+}
+.orta2a h2{
+	font-size:150%;
+	font-weight:bold;
+	padding-bottom:1%;
+}
+.orta2a li{
+	font-size:75%;
+	font-weight:bold;
+	padding-bottom:1px;
+	margin-bottom:2px;
+	
+}
+.orta2b{
+	height:50px;
+	margin-top:10px;
+	
+}
+.orta2b li{
+	display:inline-block;
+	border-top:1px solid;
+	border-left:1px solid;
+	border-right:1px solid;
+	border-radius:5px;
+	padding:3px 8px 3px 8px;
+}
+.orta2c{
+	margin-top:10px;
+	padding-left:10px;
+}
+
+/******* FOOTER *******/
+footer {
+    clear: both;
+    height: 30px;
+	border-top: 1px dotted gray;
+    border-bottom: 1px dotted gray;
+}
+
+footer p {
+   line-height: 25px;
+   margin-left: 50px;
+   font-size: 0.7em;
+   font-weight: bold;
+   text-align:center;
+}
+
+
+footer a {
+   font-size: inherit;
+   color: black;
+}
+
+footer a:hover {
+   color: #A32824;
+}
+
+/*ADMIN PAGE CSS*/
+.admin_section{
+	padding-left:8%;
+}
+.admin_orta1 h1{
+	font-weight:bold;
+	font-size:2em;
+	margin-bottom:10px;
+}
+.admin_orta1 table, .admin_orta1 td, .admin_orta1 th{
+	border:2px solid black;
+}
+.admin_orta1 th{
+	height:50px;
+	width:auto;
+	vertical-align:center;
+	padding:0px 10px 0px 10px;
+	background-color:#f8f8f8;
+	font-weight:bold;
+}
+.admin_orta1 table{
+	margin-bottom:10px;
+}
+/*musteri-siparisler-tab.html*/
+.orta2c .siparis_takip table{
+	border-radius:5px;
+	text-align:center;
+	margin-top:10px;
+}
+.orta2c .siparis_takip table, .orta2c th, .orta2c td{
+	border:1px solid black;	
+}
+.siparis_takip_baslik th{
+	height:50px;
+	width:auto;
+	vertical-align:center;
+	padding:0px 10px 0px 10px;
+	background-color:#f8f8f8;
+	font-weight:bold;	
+}
+
+/*musteri-siparis-detay.html*/
+.siparis_detay{
+	margin-top:10px;
+	margin-left:10px;
+}
+.orta2c .siparis_detay th, .orta2c .siparis_detay td{
+	border:2px solid black;
+	height:3em;
+
+}
+.orta2c .siparis_detay th{
+	width:auto;
+	padding: 3px 8px 3px 8px;
+}
+.orta2c .siparis_detay td{
+	width:65%;
+	text-align:left;
+	padding-left:10px;
+}
+/*musteri-siparis-olusturma.html*/
+.siparis_olusturma_orta2c h2{
+	font-size:150%;
+	font-weight:bold;
+	padding-bottom:1%;
+}
+.siparis_olusturma_orta2c h3{
+	font-size:100%;
+	font-weight:bold;
+	padding-bottom:1%;
+}
+.siparis_olusturma_orta2c div{
+	vertical-align: middle;
+	height: 35px;
+	margin-top:2px;
+	
+}
+.siparis_olusturma_orta2c label{
+	float: left; 
+	width: 20em; 
+	margin-right: 1em; 
+	padding-top:1px;
+}
+.siparis_olusturma_orta2c input{
+	width:15em;
+	padding-top:1px;
+}
+.model_kontrol{
+	padding-left:0px;
+}
+/*musteri-teklifler-tab.html*/
+.orta2c .teklif_takip table{
+	border-radius:5px;
+	text-align:center;
+	margin-top:10px;
+}
+.orta2c .teklif_takip table, .orta2c th, .orta2c td{
+	border:1px solid black;	
+}
+.teklif_takip_baslik th{
+	height:50px;
+	width:auto;
+	vertical-align:center;
+	padding:0px 10px 0px 10px;
+	background-color:#f8f8f8;
+	font-weight:bold;	
+}
+/*musteri-teklif-olusturma.html*/
+.teklif_olusturma_orta2c h2{
+	font-size:150%;
+	font-weight:bold;
+	padding-bottom:1%;
+}
+.teklif_olusturma_orta2c h3{
+	font-size:100%;
+	font-weight:bold;
+	padding-bottom:1%;
+}
+.teklif_olusturma_orta2c li{
+	vertical-align: middle;
+	height: 35px;
+	margin-top:2px;
+}
+.teklif_olusturma_orta2c label{
+	float: left; 
+	width: 12em; 
+	margin-right: 1em; 
+	padding-top:1px;
+}
+.teklif_olusturma_orta2c input{
+	width:15em;
+	padding-top:1px;
+}
+.teklif_olusturma_orta2c ul{
+	margin-bottom:10px;
+}
+.teklif_olusturma_orta2c .teklif_olusturma table{
+	border-radius:5px;
+	text-align:center;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.teklif_olusturma table, .orta2c th, .orta2c td{
+	border:1px solid black;
+}
+.teklif_olusturma_baslik th{
+	height:50px;
+	width:auto;
+	vertical-align:center;
+	padding:0px 10px 0px 10px;
+	background-color:#f8f8f8;
+	font-weight:bold;	
+}
+.teklif_olusturma th{
+	width:auto;
+	padding: 3px 8px 3px 8px;
+}
+.teklif_olusturma td{
+	width:auto;
+	text-align:left;
+	padding-left:10px;
+	padding-right:10px;
+}
